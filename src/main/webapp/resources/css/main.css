@@ -1,0 +1,186 @@
+/*
+Description:
+	Contains all the styles for the winning wheel page.
+	
+Verison History:
+	2012-01-28, Douglas McKechie
+	- Created based off earlier version.
+	
+	2015-09-26, Douglas McKechie
+	- Minor updates for the 2.0 winwheel example.
+*/
+
+@import 'http://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+body {
+	font-family: Montserrat, sans-serif;
+	 
+}
+
+ .banner{
+	/* font-family: Montserrat, sans-serif;
+	 background-color: lime;
+	 font-size: 15px;
+	font-weight: normal;
+	padding: 10px 5px;
+	text-shadow: 2px 2px #ff0000; */	
+	
+} 
+
+/* Sets the background image for the wheel */
+td.the_wheel {
+	background-image: url("../images/wheel_back.png");
+	background-position: center;
+	background-repeat: none;
+}
+
+/* Do some css reset on selected elements */
+h1, p {
+	margin: 0;
+}
+
+div.power_controls {
+	margin-right: 70px;
+}
+
+div.html5_logo {
+	margin-left: 70px;
+}
+
+/* Styles for the power selection controls */
+table.power {
+	background-color: #cccccc;
+	cursor: pointer;
+	border: 1px solid #333333;
+}
+
+table.power th {
+	background-color: white;
+	cursor: default;
+}
+
+td.pw1 {
+	background-color: #6fe8f0;
+}
+
+td.pw2 {
+	background-color: #86ef6f;
+}
+
+td.pw3 {
+	background-color: #ef6f6f;
+}
+
+/* Style applied to the spin button once a power has been selected */
+.clickable {
+	cursor: pointer;
+}
+
+/* Other misc styles */
+.margin_bottom {
+	margin-bottom: 5px;
+}
+
+.tg {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-color: #ccc;
+	
+  // adjust to your needs
+	background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;  
+  
+}
+
+.tg tr{
+	border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.tg td {
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	word-break: normal;
+	border-color: #ccc;
+	color: #333;
+	background-color: #fff;
+}
+
+.tg th {
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	
+	word-break: normal;
+	border-color: #ccc;
+	color: #333;
+	background-color:lime;
+}
+
+.tg .tg-4eph {
+	background-color: #f9f9f9
+}
+
+*
+
+body {
+  padding: 0 2em;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444;
+  background: #eee;
+}
+.playersHead{
+	align="left";
+}
+
+
+.playerform{
+
+}
+
+.playerform th {
+	font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	padding: 10px 5px;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: #ccc;
+	color: #333;
+	background-color:lime;
+}
+
+.addwinnerButton {
+    /* background-color: #9DC45F; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #949494;
+    
+    
+    font-family: Montserrat, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	word-break: normal;
+	border-color: #ccc;
+	color: #333;
+	background-color:lime;
+}

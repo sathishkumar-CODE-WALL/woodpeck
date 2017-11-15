@@ -1,0 +1,298 @@
+URL : 
+--------------------------------------------------------
+READ call :
+---------
+request : http://localhost:8080/SpringMVCHibernate/movies GET
+response :
+{
+"movies": [9]
+0:  {
+"movieId": 3
+"movieName": "MANGATHA"
+"lang": "TAMIL"
+"displayName": "MANGATHAA"
+"data": ""
+"genre": "ACTION"
+"casting": "AJITH"
+"director": "VP"
+"musicDirector": "YUVAN"
+"overAllRating": 5
+"ratingSet": [0]
+}-
+1:  {
+"movieId": 13
+"movieName": "Veeram new"
+"lang": "TAMIL"
+"displayName": "VEERAM II"
+"data": ""
+"genre": "ACTION"
+"casting": "AJITH"
+"director": "CT"
+"musicDirector": "YUVAN"
+"overAllRating": 4.3
+"ratingSet": [0]
+}-
+2:  {
+"movieId": 16
+"movieName": "Asal new"
+"lang": "TAMIL"
+"displayName": "ASAL"
+"data": ""
+"genre": "ACTION"
+"casting": "AJITH"
+"director": "CT"
+"musicDirector": "YUVAN"
+"overAllRating": 4.3
+"ratingSet": [0]
+}-
+3:  {
+"movieId": 19
+"movieName": "Asal new"
+"lang": "TAMIL"
+"displayName": "ASAL"
+"data": ""
+"genre": "ACTION"
+"casting": "AJITH"
+"director": "CT"
+"musicDirector": "YUVAN"
+"overAllRating": 4.3
+"ratingSet": [0]
+}-
+4:  {
+"movieId": 20
+"movieName": "Asal new"
+"lang": "TAMIL"
+"displayName": "ASAL"
+"data": ""
+"genre": "ACTION"
+"casting": "AJITH"
+"director": "CT"
+"musicDirector": "YUVAN"
+"overAllRating": 4.3
+"ratingSet": [0]
+}-
+5:  {
+"movieId": 21
+"movieName": "Asal new"
+"lang": "TAMIL"
+"displayName": "ASAL"
+"data": ""
+"genre": "ACTION"
+"casting": "AJITH"
+"director": "CT"
+"musicDirector": "YUVAN"
+"overAllRating": 4.3
+"ratingSet": [0]
+}-
+6:  {
+"movieId": 23
+"movieName": "mugavarinew"
+"lang": "TAMIL"
+"displayName": "mugavari"
+"data": ""
+"genre": "ACTION"
+"casting": "AJITH"
+"director": "CT"
+"musicDirector": "YUVAN"
+"overAllRating": 2.3
+"ratingSet": [3]
+0:  {
+"ratingId": 2
+"userId": 0
+"acting": 1
+"direction": 3
+"story": 5
+"screenplay": 0
+"music": 4
+"comments": "good movie"
+}-
+1:  {
+"ratingId": 3
+"userId": 0
+"acting": 3
+"direction": 3
+"story": 1
+"screenplay": 0
+"music": 4
+"comments": "ok movie"
+}-
+2:  {
+"ratingId": 4
+"userId": 0
+"acting": 4
+"direction": 4
+"story": 5
+"screenplay": 0
+"music": 4
+"comments": "not bad movie"
+}-
+-
+}-
+7:  {
+"movieId": 24
+"movieName": "mugavarinew"
+"lang": "TAMIL"
+"displayName": "mugavari"
+"data": ""
+"genre": "ACTION"
+"casting": "AJITH"
+"director": "CT"
+"musicDirector": "YUVAN"
+"overAllRating": 2.3
+"ratingSet": [3]
+0:  {
+"ratingId": 5
+"userId": 0
+"acting": 1
+"direction": 3
+"story": 5
+"screenplay": 0
+"music": 4
+"comments": "good movie"
+}-
+1:  {
+"ratingId": 6
+"userId": 0
+"acting": 3
+"direction": 3
+"story": 1
+"screenplay": 0
+"music": 4
+"comments": "ok movie"
+}-
+2:  {
+"ratingId": 7
+"userId": 0
+"acting": 4
+"direction": 4
+"story": 5
+"screenplay": 0
+"music": 4
+"comments": "not bad movie"
+}-
+-
+}-
+8:  {
+"movieId": 25
+"movieName": "vedhalaam"
+"lang": "TAMIL"
+"displayName": "vedhalaam"
+"data": ""
+"genre": "ACTION"
+"casting": "AJITH"
+"director": "SS"
+"musicDirector": "anirudh"
+"overAllRating": 2.3
+"ratingSet": [3]
+0:  {
+"ratingId": 8
+"userId": 0
+"acting": 1
+"direction": 3
+"story": 5
+"screenplay": 0
+"music": 4
+"comments": "good movie"
+}-
+1:  {
+"ratingId": 9
+"userId": 0
+"acting": 3
+"direction": 3
+"story": 1
+"screenplay": 0
+"music": 4
+"comments": "very good movie"
+}-
+2:  {
+"ratingId": 10
+"userId": 0
+"acting": 4
+"direction": 4
+"story": 5
+"screenplay": 0
+"music": 4
+"comments": "not bad movie"
+}-
+-
+}-
+-
+}
+--------------------------------------------------------
+POST CALL:
+---------
+http://localhost:8080/SpringMVCHibernate/movies
+request body :
+{
+"movieName": "vedhalaam",
+"lang": "TAMIL",
+"displayName": "vedhalaam",
+"data": "",
+"genre": "ACTION",
+"casting": "AJITH",
+"director": "SS",
+"musicDirector": "anirudh",
+"overAllRating": 2.3,
+"ratingSet" :[
+{"acting":1,"direction":3,"story":5,"music":4,"comments":"good movie"},
+{"acting":3,"direction":3,"story":1,"music":4,"comments":"very good movie"},
+{"acting":4,"direction":4,"story":5,"music":4,"comments":"not bad movie"}
+]
+}
+
+response : {
+"movieId": 26
+"movieName": "theri"
+"lang": "TAMIL"
+"displayName": "theri"
+"data": ""
+"genre": "ACTION"
+"casting": "VIJAY"
+"director": "SS"
+"musicDirector": "anirudh"
+"overAllRating": 2.3
+"ratingSet": [3]
+0:  {
+"ratingId": 11
+"userId": 0
+"acting": 1
+"direction": 1
+"story": 5
+"screenplay": 0
+"music": 4
+"comments": "badmovie"
+}-
+1:  {
+"ratingId": 12
+"userId": 0
+"acting": 3
+"direction": 1
+"story": 1
+"screenplay": 0
+"music": 4
+"comments": "very good movie"
+}-
+2:  {
+"ratingId": 13
+"userId": 0
+"acting": 4
+"direction": 1
+"story": 5
+"screenplay": 0
+"music": 4
+"comments": "not bad movie"
+}-
+-
+}
+-------------------------------------------------------
+http://localhost:8080/SpringMVCHibernate/persons
+
+--------------------------------------------------------
+
+database : moviesDB
+username : root
+passwrod : root
+
+table scripts:
+
+

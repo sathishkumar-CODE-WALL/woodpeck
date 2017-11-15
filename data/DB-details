@@ -1,0 +1,10 @@
+database : moviesDB
+username : root
+passwrod : root
+
+
+frequently used queries:
+-----------------------
+alter table rating add avgrating int;
+alter table rating modify avgrating float;
+ALTER TABLE movie DROP COLUMN overall_rating;
